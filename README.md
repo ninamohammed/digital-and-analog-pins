@@ -25,6 +25,7 @@
 
 ![digital   analog](https://user-images.githubusercontent.com/103388162/186000041-274dd270-38e0-4f38-863f-06eba434cfbf.jpeg)
 
+
 ### The Code:
 
 ```
@@ -54,6 +55,13 @@ void loop(){
   delay(100); 
 } 
 ```
+### The Vedio :
+
+
+https://user-images.githubusercontent.com/103388162/186002696-4334fc26-7712-4e9b-82e0-3776d2b8e8ad.mp4
+
+
+
 
 ### Practical application in Jeddah headquarters with Eng. Shoroug:
 

@@ -9,9 +9,10 @@
 #### The difference between digital and analog:
 
 * https://thecustomizewindows.com/2018/05/difference-between-analog-and-digital-pins-in-arduino-uno/
+----------------------------------------
 
 ### Tools:
-----
+
 * Arduino board
 * breadBoard
 * Jumper wires
@@ -55,6 +56,8 @@ void loop(){
 ```
 
 #### Practical application in Jeddah headquarters with Eng. Shoroug:
+
+-------
 
 
 https://user-images.githubusercontent.com/103388162/186001466-dd472678-951e-481a-bdf9-755931baa751.mp4

@@ -2,13 +2,6 @@
 
  Task, Electric: Design and programming of an electronic circuit for a sensor of two types, Analog & Digital
  
- #### More information on the topic can be found here:
- 
-*  https://www.circuito.io/blog/arduino-uno-pinout/#:~:text=The%20Arduino%20Uno%20pinout%20consists,LEDs%2C%20reading%20sensors%20and%20more.
-
-#### The difference between digital and analog:
-
-* https://thecustomizewindows.com/2018/05/difference-between-analog-and-digital-pins-in-arduino-uno/
 ----------------------------------------
 
 ### Tools:

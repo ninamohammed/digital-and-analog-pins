@@ -19,7 +19,46 @@
 
 <img width="806" alt="analog" src="https://user-images.githubusercontent.com/103388162/187053262-5661407a-0bda-4f2c-a259-dc8c56595af1.png">
 
+### Idea Of The Code :
+#### General :
+We will read the analog value/signal from the LDR sensor , then send it to the multimeter & LED , so we can sight the variation.
 
+
+#### Explaining The Code :
+1 - Pins
+
+* Defining a variable for the LDR input/read.
+* Connecting the LDR to analog pin A5.
+```
+int sensorValue = 0;
+byte LDR = A5;
+```
+2 - Initializing
+
+* Initializing status of each used pins whether it's IN or OUT.
+LDR is input , and PWM digital pin 9 is output (for multimeter & LED).
+* Starting the serial monitor to see the input value changes on the screen.
+```
+void setup ( )
+{
+  pinMode(LDR,INPUT);
+  pinMode(9,OUTPUT);
+  Serial.begin (9600);
+}
+```
+3- Main Code / Loop
+
+* Assigning the read value from the LDR to the variable sensorValue .
+* Printing the exact value of sensorValue in the serial monitor.
+* Sending the value of sensorValue to the multimeter & LED after mapping (changing or maping that range of LDR values (0-1023) to a different range (readable range by the other components ))
+```
+void loop ()
+{
+  sensorValue = analogRead(LDR)  ;
+  Serial.println(sensorValue);
+  analogWrite(9 , map (sensorValue , 0,1023 ,0,255));
+}
+```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

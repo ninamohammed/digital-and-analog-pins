@@ -2,6 +2,10 @@
 
  Task, Electric: Design and programming of an electronic circuit for a sensor of two types, Analog & Digital
  
+ ### Analog Sensor:
+ 
+ it's a sensor that produces a continuous analog output , that can be even fractional numbers. The sensor we will use for our example is an LDR (light-dependent resistor) , which is a component that decreases resistance with respect to receiving luminosity (light) on the component's sensitive surface.
+ 
 ----------------------------------------
 
 ### Tools:

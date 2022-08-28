@@ -6,21 +6,19 @@
  
  it's a sensor that produces a continuous analog output , that can be even fractional numbers. The sensor we will use for our example is an LDR (light-dependent resistor) , which is a component that decreases resistance with respect to receiving luminosity (light) on the component's sensitive surface.
  
-----------------------------------------
 
-### Tools:
+### Component List :
 
-* Arduino board
-* breadBoard
-* Jumper wires
-* Potentiometer
-* Led
-* Resistor
-* bush button
+* Arduino UNO
+* IR Sensor
+* IR Remote
+* 3 Pull Down Resistors (1 kΩ)
+* 3 LEDs
 
-### Circuit layout:
+### Circuit Diagram:
 
-![digital   analog](https://user-images.githubusercontent.com/103388162/186000041-274dd270-38e0-4f38-863f-06eba434cfbf.jpeg)
+<img width="806" alt="analog" src="https://user-images.githubusercontent.com/103388162/187053262-5661407a-0bda-4f2c-a259-dc8c56595af1.png">
+
 
 
 ### The Code:
